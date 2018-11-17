@@ -23,7 +23,7 @@ func main() {
 }
 
 func printHeader() {
-	fmt.Printf("\n/* %s\n", os.Args[0])
+	fmt.Println("\n/* greet_user.go")
 	fmt.Println(" *")
 	fmt.Print(" * Prints \"Hello NAME!\", where NAME is either provided at runtime")
 	fmt.Println(" or interactively.")
