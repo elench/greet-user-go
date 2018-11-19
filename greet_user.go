@@ -19,7 +19,7 @@ func main() {
 		name = scanner.Text()
 		fmt.Println()
 	}
-	fmt.Printf("Hello %s!\n", name)
+	fmt.Printf("Hello %s!\n\n", name)
 }
 
 func printHeader() {
